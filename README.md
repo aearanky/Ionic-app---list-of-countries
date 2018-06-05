@@ -23,7 +23,7 @@ On your Mac,
 
 -- Go to `/Library/Java/JavaVirtualMachines/` and delete any version of jdk except jdk 1.8 (and install jdk 1.8 if it is not installed in your system)
 
-In the bash_profile file, add the following:
+In the bash_profile file found in the users/user_name path, add the following:
 ---------------------------------------------
 `export ANDROID_HOME=Users/Aditya/Library/Android/sdk`
 
