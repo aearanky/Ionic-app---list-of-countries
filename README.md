@@ -19,13 +19,14 @@ Generating a build
 ------------------
 # Requirements
 On your Mac,
--- You will find the android sdk present at `/Users/<your-account-name>/Library/Android/sdk`. export it as `ANDROID_HOME` as a `PATH` variable
+-- You will find the android sdk present at `/Users/<your-account-name>/Library/Android/sdk`. Export it as `ANDROID_HOME` as a `PATH` variable
 
 -- Go to `/Library/Java/JavaVirtualMachines/` and delete any version of jdk except jdk 1.8 (and install jdk 1.8 if it is not installed in your system)
 
 In the bash_profile file, add the following:
 ---------------------------------------------
 `export ANDROID_HOME=Users/Aditya/Library/Android/sdk`
+
 `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home`
 
 # Run the following command to generate an android build
