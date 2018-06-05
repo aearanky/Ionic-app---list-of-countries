@@ -25,8 +25,8 @@ On your Mac,
 
 In the bash_profile file, add the following:
 ---------------------------------------------
-export ANDROID_HOME=Users/Aditya/Library/Android/sdk
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home
+`export ANDROID_HOME=Users/Aditya/Library/Android/sdk`
+`export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home`
 
 # Run the following command to generate an android build
 -- `ionic cordova build android`
