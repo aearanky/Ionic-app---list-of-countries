@@ -19,7 +19,7 @@ Generating a build
 ------------------
 
 # Requirements
--- Delete any version of jdk except jdk 1.8 (and install jdk 1.8 if it is not installed in your system)
+-- On a Mac, go to `/Library/Java/JavaVirtualMachines` and delete any version of jdk except jdk 1.8 (and install jdk 1.8 if it is not installed in your system)
 
 # Run the following command to generate an android build
 -- `ionic cordova build android`
