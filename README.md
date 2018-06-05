@@ -2,10 +2,10 @@
 
 After installing the required node modules,
 
-Creating and testing ionic framework
-------------------------------------
+# Creating and testing ionic framework
 
-# Run the following commands to:
+Run the following commands to:
+------------------------------
 -- Load the app in the desktop browser (can view the mobile view here)
   `ionic serve -l`
 
@@ -15,9 +15,9 @@ Creating and testing ionic framework
 3. After connecting the mobile device on the same device as the computer using the wifi, 
    run `ionic serve -c` in the root folder 
    
-Generating a android build
---------------------------
-# Requirements
+# Generating a android build:
+Requirements
+------------
 On your Mac,
 -- You will find the android sdk present at `/Users/<your-account-name>/Library/Android/sdk`. Export it as `ANDROID_HOME` as a `PATH` variable
 
@@ -29,7 +29,8 @@ In the bash_profile file found in the Users/<your-account-name> path, add the fo
 
 `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home`
 
-# Run the following command to generate an android build
+Run the following command to generate an android build
+--------------------------------------------------------
 -- `ionic cordova build android`
 
 Place the generated `apk file` in the android phone after enabling the developer options and the USB debugging in your android phone.
