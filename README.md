@@ -19,7 +19,9 @@ Generating a build
 ------------------
 
 # Requirements
--- On a Mac, go to `/Library/Java/JavaVirtualMachines` and delete any version of jdk except jdk 1.8 (and install jdk 1.8 if it is not installed in your system)
+On your Mac,
+-- You will find the android sdk present at `/Users/<your-account-name>/Library/Android/sdk` use it as `ANDROID_HOME` and `export` it as a `PATH` variable
+-- Go to `/Library/Java/JavaVirtualMachines` and delete any version of jdk except jdk 1.8 (and install jdk 1.8 if it is not installed in your system)
 
 # Run the following command to generate an android build
 -- `ionic cordova build android`
