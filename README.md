@@ -14,3 +14,12 @@ Creating and testing ionic framework
 2. Download ionic DevApp and login in with the ionic pro credentials
 3. After connecting the mobile device on the same device as the computer using the wifi, 
    run `ionic serve -c` in the root folder 
+   
+Generating a build
+------------------
+
+# Requirements
+-- Delete any version of jdk except jdk 1.8 and install jdk 1.8 if it is not installed that in your system
+
+# Run the following command to generate an android build
+-- `ionic cordova build android`
