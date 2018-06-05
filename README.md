@@ -1,4 +1,4 @@
-# Ionic-app---list-of-countries
+# Ionic-app-list-of-countries
 
 After installing the required node modules,
 
