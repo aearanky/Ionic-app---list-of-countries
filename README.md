@@ -32,4 +32,4 @@ In the bash_profile file found in the Users/<your-account-name> path, add the fo
 # Run the following command to generate an android build
 -- `ionic cordova build android`
 
-# Place the generated `apk file` in the android phone after enabling the developer options and the USB debugging in your android phone.
+Place the generated `apk file` in the android phone after enabling the developer options and the USB debugging in your android phone.
