@@ -20,17 +20,16 @@ export class RestProvider {
 
     getCountries(): Observable<{}> {
         return this.http.get(this.apiUrl).pipe(
-            map(this.extractData),
-            catchError(this.handleError)
+            map(RestProvider.extractData),
+            catchError(RestProvider.handleError)
         );
     }
 
-    private extractData(res: Response) {
-        let body = res;
-        return body || {};
+    private static extractData(res: Response) {
+        return res || {};
     }
 
-    private handleError(error: Response | any) {
+    private static handleError(error: Response | any) {
         let errMsg: string;
         if (error instanceof Response) {
             const err = error || '';
