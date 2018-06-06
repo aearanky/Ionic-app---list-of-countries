@@ -23,6 +23,8 @@ On your Mac,
 
 -- Go to `/Library/Java/JavaVirtualMachines/` and delete any version of jdk except jdk 1.8 (and install jdk 1.8 if it is not installed in your system)
 
+-- Make sure `gradle` package is installed in the system (in the user root level)
+
 In the `.bash_profile` file found in the `Users/<your-account-name>` (do ls .* and find the .bash_profile file), add the following:
 -----------------------------------------------------------------------------------------------------------------------------------
 `export ANDROID_HOME=Users/Aditya/Library/Android/sdk`
